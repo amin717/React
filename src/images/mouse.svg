@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="165.743" height="180.5" viewBox="0 0 165.743 180.5">
+  <g id="mouse" transform="translate(-1617.101 -406)">
+    <path id="computer-mouse" d="M101.163,0H94.957C82.13,0,72.083,10.322,72.083,23.5V56.4c0,13.179,10.047,23.5,22.874,23.5h6.207a23.676,23.676,0,0,0,23.794-23.5V23.5A23.675,23.675,0,0,0,101.163,0ZM98.28,12.315h.48a1.355,1.355,0,0,1,1.361,1.344V23.23a1.355,1.355,0,0,1-1.361,1.344h-.48a1.355,1.355,0,0,1-1.361-1.344V13.659A1.355,1.355,0,0,1,98.28,12.315ZM121.846,56.4A20.58,20.58,0,0,1,101.163,76.83H94.957c-11.082,0-19.762-8.974-19.762-20.429V23.5c0-11.454,8.68-20.427,19.762-20.427h1.989v6.37a4.432,4.432,0,0,0-3.138,4.216V23.23a4.432,4.432,0,0,0,3.138,4.216v7.906a1.556,1.556,0,0,0,3.112,0v-7.9a4.432,4.432,0,0,0,3.177-4.227V13.659a4.433,4.433,0,0,0-3.177-4.228V3.073h1.106A20.579,20.579,0,0,1,121.846,23.5Z" transform="translate(1605.566 455.788)" fill="#fff"/>
+    <g id="Group_1178" data-name="Group 1178" transform="translate(1688.459 553.347)">
+      <g id="navigate-up-arrow">
+        <path id="Path_13558" data-name="Path 13558" d="M16.123,113.264l12.615-12.616a2.054,2.054,0,1,0-2.905-2.905L14.671,108.905,3.508,97.743A2.055,2.055,0,0,0,.6,100.648l12.616,12.616a2.055,2.055,0,0,0,2.9,0Z" transform="translate(-0.001 -97.141)" fill="#fff"/>
+      </g>
+      <g id="navigate-up-arrow-2" data-name="navigate-up-arrow" transform="translate(0 16.429)">
+        <path id="Path_13558-2" data-name="Path 13558" d="M16.123,113.264l12.615-12.616a2.054,2.054,0,1,0-2.905-2.905L14.671,108.905,3.508,97.743A2.055,2.055,0,0,0,.6,100.648l12.616,12.616a2.055,2.055,0,0,0,2.9,0Z" transform="translate(-0.001 -97.141)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1180" data-name="Group 1180" transform="translate(1688.459 406)">
+      <g id="navigate-up-arrow-3" data-name="navigate-up-arrow" transform="translate(0 16.428)">
+        <path id="Path_13558-3" data-name="Path 13558" d="M16.123,97.743l12.615,12.616a2.054,2.054,0,0,1-2.905,2.905L14.671,102.1,3.508,113.264A2.055,2.055,0,1,1,.6,110.358L13.218,97.742a2.055,2.055,0,0,1,2.9,0Z" transform="translate(-0.001 -97.141)" fill="#fff"/>
+      </g>
+      <g id="navigate-up-arrow-4" data-name="navigate-up-arrow" transform="translate(0 0)">
+        <path id="Path_13558-4" data-name="Path 13558" d="M16.123,97.743l12.615,12.616a2.054,2.054,0,0,1-2.905,2.905L14.671,102.1,3.508,113.264A2.055,2.055,0,1,1,.6,110.358L13.218,97.742a2.055,2.055,0,0,1,2.9,0Z" transform="translate(-0.001 -97.141)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1177" data-name="Group 1177" transform="translate(1749.713 481.15)">
+      <g id="navigate-up-arrow-5" data-name="navigate-up-arrow" transform="translate(16.725 0) rotate(90)">
+        <path id="Path_13558-5" data-name="Path 13558" d="M16.122.6,28.738,13.218a2.054,2.054,0,1,1-2.905,2.905L14.67,4.96,3.508,16.123A2.055,2.055,0,1,1,.6,13.217L13.217.6a2.055,2.055,0,0,1,2.9,0Z" fill="#fff"/>
+      </g>
+      <g id="navigate-up-arrow-6" data-name="navigate-up-arrow" transform="translate(33.13 0.86) rotate(90)">
+        <path id="Path_13558-6" data-name="Path 13558" d="M16.122.6,28.738,13.218a2.054,2.054,0,1,1-2.905,2.905L14.67,4.96,3.508,16.123A2.055,2.055,0,1,1,.6,13.217L13.217.6a2.055,2.055,0,0,1,2.9,0Z" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_1179" data-name="Group 1179" transform="translate(1617.101 481.15)">
+      <g id="navigate-up-arrow-7" data-name="navigate-up-arrow" transform="translate(33.13 0) rotate(90)">
+        <path id="Path_13558-7" data-name="Path 13558" d="M16.123,16.123,28.738,3.507A2.054,2.054,0,1,0,25.833.6L14.67,11.764,3.508.6A2.055,2.055,0,0,0,.6,3.507L13.218,16.123a2.055,2.055,0,0,0,2.905,0Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+      <g id="navigate-up-arrow-8" data-name="navigate-up-arrow" transform="translate(16.725 0.86) rotate(90)">
+        <path id="Path_13558-8" data-name="Path 13558" d="M16.123,16.123,28.738,3.507A2.054,2.054,0,1,0,25.833.6L14.67,11.764,3.508.6A2.055,2.055,0,0,0,.6,3.507L13.218,16.123a2.055,2.055,0,0,0,2.905,0Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

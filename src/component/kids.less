@@ -1,0 +1,205 @@
+@font-face {
+    font-family: IRANSans;
+    font-style : normal;
+    font-weight: normal;
+    src        : url("../fonts/IRANSansWeb(FaNum).eot");
+    src        : url("../fonts/IRANSansWeb(FaNum).eot?#iefix") format("embedded-opentype"),
+        /* IE6-8 */
+        url("../fonts/IRANSansWeb(FaNum).woff2") format("woff2"),
+        /* FF39+,Chrome36+, Opera24+*/
+        url("../fonts/IRANSansWeb(FaNum).woff") format("woff"),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url("../fonts/IRANSansWeb(FaNum).ttf") format("truetype");
+}
+
+* {
+    box-sizing : border-box;
+    outline    : 0;
+    font-size  : 12px;
+    margin     : 0;
+    padding    : 0;
+    font-family: IRANSans;
+    text-align : right;
+    direction  : rtl;
+    color      : #7d7d7d;
+
+}
+
+
+.list_items {
+    max-width    : 1920px;
+    margin       : 20px 14%;
+    /* min-height: 100vh; */
+    display      : flex;
+    flex-flow    : row wrap;
+
+}
+
+.item {
+    display       : inline-block;
+    margin-bottom : 40px;
+    padding       : 0 12.5px;
+    vertical-align: top;
+    width         : 16.66%;
+
+    .item_poster {
+        width          : 100%;
+        position       : relative;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        overflow       : hidden;
+        height         : calc(100% - 50px);
+
+        a {
+            width : 100%;
+            height: 100%;
+        }
+
+        img {
+            width        : 100%;
+            mask-size    : contain;
+            mask-position: center center;
+        }
+
+        .fake_img {
+            opacity: 0;
+        }
+    }
+
+    .item_title {
+        height     : 50px;
+        display    : flex;
+        align-items: center;
+    }
+
+    p {
+        padding      : 0 10px;
+        text-overflow: ellipsis;
+        overflow     : hidden;
+        white-space  : nowrap;
+    }
+}
+
+
+
+
+
+@media (max-width: 450px) {
+    .list_items {
+        margin         : 20px 0;
+        display        : flex;
+        justify-content: space-around;
+
+        .item_poster {
+            border-radius: 33px 37.5px 42px 33px/33px 37.5px 42px 33px;
+            min-width    : 140px;
+            min-height   : 200px;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    .item {
+        width           : 36vw;
+        height          : 56vw;
+        /* width        : 50%; */
+        min-width       : 160px;
+        min-height      : 250px;
+    }
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .item {
+        width : 24vw;
+        height: 37.2vw;
+
+        .item_poster {
+            border-radius: 27.5px 31px 35px 27.5px/27.5px 31px 35px 27.5px
+        }
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    .item {
+        width : 18vw;
+        height: 28vw;
+
+        .item_poster {
+            border-radius: 27.5px 31px 35px 27.5px/27.5px 31px 35px 27.5px
+        }
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1279.98px) {
+    .list_items {
+        margin: 20px 17%;
+
+        .item {
+            width: 25%;
+
+            .item_poster {
+                border-radius: 33px 37.5px 42px 33px/33px 37.5px 42px 33px;
+            }
+        }
+    }
+
+
+
+
+}
+
+@media (min-width: 1280px) {
+
+
+    .list_items {
+        margin: 20px 17%;
+
+        .item {
+            width: 25%;
+
+            .item_poster {
+                border-radius: 33px 37.5px 42px 33px/33px 37.5px 42px 33px;
+            }
+        }
+    }
+
+
+}
+
+@media (min-width: 1400px) {
+    .item {
+        width: 20%;
+    }
+}
+
+@media (min-width: 1601px) {
+    .item {
+        width: 16.66%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .list_items {
+        margin: 20px 17%;
+    }
+}
+
+@media (min-width: 2572px) {
+    .list_items {
+        margin: 20px auto;
+    }
+}
+
+
+
+/*     clip-path: polygon(-3% 102%, -3% 0%, 103% -3%, 97% 103%); */

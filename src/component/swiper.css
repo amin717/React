@@ -1,0 +1,133 @@
+.swiper-container {
+    width        : 100%;
+    margin-bottom: 150px;
+    margin-top   : 20px;
+    display      : flex;
+    position     : relative;
+    overflow     : hidden;
+}
+
+.swiper-wrapper {
+    height    : 100%;
+    width     : 100%;
+    display   : inline-flex;
+    box-sizing: content-box;
+    position  : relative;
+}
+
+.swiper-slide {
+    position                  : relative;
+    overflow                  : hidden;
+}
+
+.swiper-slide a {
+    width   : 100%;
+    height  : 100%;
+    position: absolute;
+    left    : 0;
+    top     : 0;
+}
+
+.swiper-slide img {
+    width     : 100%;
+    height    : 100%;
+    object-fit: contain;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    font-weight   : 900;
+    color         : #F5A313;
+    /* opacity    : 0; */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    opacity: 0;
+}
+
+.svg {
+    width      : 100%;
+    /* height     : 100%; */
+    position   : absolute;
+    left       : 0;
+    top        : 0;
+    filter  : drop-shadow(0px 2px 3px #000);
+}
+
+.svg_img {
+    width   : 100%;
+    height  : 100%;
+    position: absolute;
+    top     : 0;
+    left    : 0;
+}
+
+.swiper-button-disabled {
+    opacity: 0 ;
+}
+
+.swiper-button-next-hover {
+    width     : 50px;
+    height    : 100%;
+    background:linear-gradient(to right, rgb(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    opacity   : 0;
+    z-index   : 1;
+    position  : absolute;
+    left      : 0;
+    transition: opacity 500ms;
+}
+
+.swiper-button-prev-hover {
+    width     : 50px;
+    height    : 100%;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    opacity   : 0;
+    z-index   : 1;
+    position  : absolute;
+    right     : 0;
+    transition: opacity 500ms;
+}
+
+@media (min-width: 320px) {
+    .swiper-container {
+        height: 60vw;
+    }
+}
+
+@media (min-width: 540px) {
+    .swiper-container {
+        height: 45vw;
+    }
+}
+
+@media (min-width: 767px) {
+    .swiper-container {
+        height: 32vw;
+    }
+}
+
+@media (min-width: 1000px) {
+    .swiper-container {
+        height: 28vw;
+    }
+}
+
+@media (min-width: 1400px) {
+    .swiper-container {
+        height: 22vw;
+    }
+}
+
+@media (min-width: 1600px) {
+    .swiper-container {
+        height: 19vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    .swiper-container {
+        max-width : 1920px;
+        max-height: 400px;
+    }
+}

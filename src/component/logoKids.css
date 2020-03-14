@@ -1,0 +1,64 @@
+.container {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+    margin         : 100px 0px 100px;
+}
+
+.logo_kids {
+    width        : 100%;
+    max-width    : 1500px;
+    height       : 120px;
+    border-radius: 10px;
+    position     : relative;
+}
+
+.logo_kids .logo {
+    float   : right;
+    width   : 200px;
+    position: relative;
+}
+
+.logo .logo_img {
+    position: absolute;
+    width   : 100%;
+    top     : -70px;
+}
+
+.background_logo {
+    width              : calc(100% - 200px);
+    height             : 100%;
+    background-repeat  : no-repeat;
+    background-position: left;
+    background-size    : contain;
+    overflow           : hidden;
+    border-radius      : 15px;
+    float              : left;
+}
+
+
+
+.background_logo .background_logo_img {
+    float  : right;
+    padding: 30px 10px;
+}
+
+/* .season {
+    width    : 100%;
+    max-width: 1500px;
+
+}
+
+.season .logo {
+    width           : 100px;
+    height          : 35px;
+    float           : left;
+    border-radius   : 10px;
+    background-color: #F5A313;
+    margin-top      : 10px;
+    display         : flex;
+    justify-content : space-around;
+    align-items     : center;
+    font-weight: bold;
+} */
